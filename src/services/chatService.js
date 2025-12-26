@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8080/api/chat';
+const API_BASE_URL = 'https://ai-chat-backend-1-zn1e.onrender.com/api/chat/message/api/chat';
 
 const chatService = {
   sendMessage: async (message, sessionId) => {
